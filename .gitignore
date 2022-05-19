@@ -5,3 +5,6 @@ cobs_site/*
 
 #FILENAMES TO IGNORE
 client*
+manage.py
+Pip*
+

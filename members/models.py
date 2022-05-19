@@ -152,7 +152,7 @@ class Order(models.Model):
         verbose_name = "Pedido"
         verbose_name_plural = "Pedidos"
 
-
+#comment
 
 class Form(models.Model):
     index = models.IntegerField(db_column='index',primary_key=True)
