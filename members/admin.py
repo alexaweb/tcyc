@@ -57,7 +57,7 @@ class OrderAdmin(admin.ModelAdmin,CSSAdminMixin):
     #    return obj.fecha.strftime("%d.%b.%Y")
     #admin_fecha.short_description = 'Fecha'
     
-    search_fields = ['cliente']
+    search_fields = ['cliente','email']
     list_display = ['num_pedido','fecha','cliente','email','total','total_pagado','order','elementos_list']
     readonly_fields = ['cliente','fecha','elementos_list','image','externa']
     fields = ('cliente','fecha','elementos_list','image','externa')
