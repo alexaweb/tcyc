@@ -1,0 +1,7 @@
+#DIRECTORIES TO IGNORE
+config/*
+old/*
+cobs_site/*
+
+#FILENAMES TO IGNORE
+client*

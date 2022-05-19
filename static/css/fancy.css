@@ -1,0 +1,20 @@
+.column-email {
+    width: 350px;
+    color: crimson;
+}
+
+div.text {
+    color: blue;
+}
+
+.column{ color: green; }
+
+div.text a:link {
+    color: hotpink;
+ }
+
+ /*
+ a:link {
+    color: red;
+  }
+  */
